@@ -1,0 +1,85 @@
+.recipe{
+    display: block;
+    border: solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+    border-color: rgb(12, 12, 11);
+    background-color: rgb(206, 163, 109);
+    text-align: center;
+    text-shadow: 2px grey ;
+    color: rgb(124, 36, 4);
+    text-decoration: none;
+    
+}
+
+a {
+  display: inline-block; /* needed for transform */
+  transition: transform 0.3s ease;
+}
+a:hover{
+   transform: scale(1.1); /* grows 10% */
+   color:black;
+
+}
+a:visited{
+    color:white;
+}
+a:active{
+    color: green;
+}
+
+h1{
+    border:rgb(21, 18, 17) solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color:rgb(159, 106, 40)
+}
+img{
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 50%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    
+    
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* shrink-wrap the image */
+}
+
+.image-container img {
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  padding: 5px 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* so text doesn't block hover */
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100px;
+  border-radius: 20px;
+
+  
+}
+
+.image-container:hover .caption {
+  opacity: 1;
+  pointer-events: auto;
+}
+

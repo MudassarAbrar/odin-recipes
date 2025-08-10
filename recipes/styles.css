@@ -1,0 +1,54 @@
+img{
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+h3{
+    color: rgb(183, 140, 83);
+    text-align: justify;
+
+}
+p{
+    color:rgb(218, 167, 105);
+}
+div {
+    border: 3px solid;
+    border-radius: 20px;
+    padding: 0 5px;
+    margin: 10px;
+    box-shadow: 5px 5px 18px rgba(44, 42, 37, 0.795);
+    
+
+}
+div h3{
+    text-align: center;
+    margin: 3px;
+}
+
+h1{
+    border: solid rgb(0, 0, 0);
+    color:  rgb(183, 140, 83);
+    background-color: rgba(250, 235, 215, 0.399);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    box-shadow:5px 5px 15px grey
+}   
+
+a {
+  display: inline-block; /* needed for transform */
+  transition: transform 0.3s ease;
+  color:rgb(183, 140, 83)
+}
+a:hover{
+   transform: scale(1.1); /* grows 10% */
+   color:black;
+
+}
+a:visited{
+    color: green;
+}
